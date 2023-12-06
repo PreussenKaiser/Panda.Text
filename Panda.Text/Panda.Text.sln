@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{363D605E-836F-486F-82BF-28CBBE4A6651}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\.gitignore = ..\.gitignore
+		..\LICENSE.md = ..\LICENSE.md
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.Text", "Panda.Text\Panda.Text.csproj", "{8AB30B47-D81D-4672-A5D3-797479C926AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panda.Text.Test", "Panda.Text.Test\Panda.Text.Test.csproj", "{681EA381-1E7F-4134-AC41-2F349DC575C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB30B47-D81D-4672-A5D3-797479C926AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB30B47-D81D-4672-A5D3-797479C926AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB30B47-D81D-4672-A5D3-797479C926AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB30B47-D81D-4672-A5D3-797479C926AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681EA381-1E7F-4134-AC41-2F349DC575C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681EA381-1E7F-4134-AC41-2F349DC575C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681EA381-1E7F-4134-AC41-2F349DC575C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681EA381-1E7F-4134-AC41-2F349DC575C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05D2525E-2495-4847-80A5-FFB3788A9F93}
+	EndGlobalSection
+EndGlobal
